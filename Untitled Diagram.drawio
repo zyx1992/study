@@ -1,11 +1,22 @@
-<mxfile host="app.diagrams.net" modified="2020-10-03T11:41:18.458Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="1RZ1c-JfowGBSGxsqjk5" version="13.7.7" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-03T15:13:19.472Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="nfis5YR3XVboIijNUABC" version="13.7.7" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
-    <mxGraphModel dx="938" dy="619" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1351" dy="877" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="k65bAhtD_iv1GS-tVhwP-62" value="重定向，携带code" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="395" y="384" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="k65bAhtD_iv1GS-tVhwP-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.03;entryY=1.259;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="k65bAhtD_iv1GS-tVhwP-28" target="k65bAhtD_iv1GS-tVhwP-62">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k65bAhtD_iv1GS-tVhwP-75" value="code换取ticket" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="418" y="495" width="90" height="20" as="geometry" />
+        </mxCell>
         <mxCell id="77e6c97f196da883-1" value="oAuth" style="swimlane;html=1;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="1" vertex="1">
-          <mxGeometry x="110" y="40" width="690" height="590" as="geometry" />
+          <mxGeometry x="10" y="10" width="690" height="590" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-2" value="浏览器" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
           <mxGeometry y="20" width="230" height="570" as="geometry" />
@@ -92,17 +103,6 @@
         </mxCell>
         <mxCell id="k65bAhtD_iv1GS-tVhwP-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="77e6c97f196da883-1" source="k65bAhtD_iv1GS-tVhwP-71" target="k65bAhtD_iv1GS-tVhwP-72">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="k65bAhtD_iv1GS-tVhwP-62" value="重定向，携带code" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="495" y="414" width="110" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="k65bAhtD_iv1GS-tVhwP-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.03;entryY=1.259;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="k65bAhtD_iv1GS-tVhwP-28" target="k65bAhtD_iv1GS-tVhwP-62">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="510" y="440" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="k65bAhtD_iv1GS-tVhwP-75" value="code换取ticket" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="518" y="525" width="90" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
